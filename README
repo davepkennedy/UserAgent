@@ -1,0 +1,5 @@
+I wrote the almost same app many many many years ago using MFC on Windows.
+I've finally got around to doing it again on OS X.
+
+There are far better mechanisms for doing this (cURL) but this is mainly an
+app for me to try and make a UI in XCode.
