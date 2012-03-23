@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		559565DD15153C6800D78AC8 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 559565DC15153C6800D78AC8 /* Header.m */; };
 		55BCFAE2151298EF00464FE9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BCFAE1151298EF00464FE9 /* Cocoa.framework */; };
 		55BCFAEC151298EF00464FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFAEA151298EF00464FE9 /* InfoPlist.strings */; };
 		55BCFAEE151298EF00464FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BCFAED151298EF00464FE9 /* main.m */; };
@@ -30,24 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		559565DB15153C6700D78AC8 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		559565DC15153C6800D78AC8 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
 		55BCFADD151298EF00464FE9 /* UserAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BCFAE1151298EF00464FE9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		55BCFAE4151298EF00464FE9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		55BCFAE5151298EF00464FE9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		55BCFAE6151298EF00464FE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		55BCFAE9151298EF00464FE9 /* UserAgent-Info.plist */ = {isa = PBXFileReference; path = "UserAgent-Info.plist"; sourceTree = "<group>"; };
+		55BCFAE9151298EF00464FE9 /* UserAgent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UserAgent-Info.plist"; sourceTree = "<group>"; };
 		55BCFAEB151298EF00464FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55BCFAED151298EF00464FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55BCFAEF151298EF00464FE9 /* UserAgent-Prefix.pch */ = {isa = PBXFileReference; path = "UserAgent-Prefix.pch"; sourceTree = "<group>"; };
+		55BCFAEF151298EF00464FE9 /* UserAgent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserAgent-Prefix.pch"; sourceTree = "<group>"; };
 		55BCFAF1151298EF00464FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		55BCFAF3151298EF00464FE9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		55BCFAF3151298EF00464FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55BCFAF4151298EF00464FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		55BCFAF7151298EF00464FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		55BCFAFE151298EF00464FE9 /* UserAgentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserAgentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BCFAFF151298EF00464FE9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		55BCFB06151298EF00464FE9 /* UserAgentTests-Info.plist */ = {isa = PBXFileReference; path = "UserAgentTests-Info.plist"; sourceTree = "<group>"; };
+		55BCFB06151298EF00464FE9 /* UserAgentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UserAgentTests-Info.plist"; sourceTree = "<group>"; };
 		55BCFB08151298EF00464FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55BCFB0A151298EF00464FE9 /* UserAgentTests.h */ = {isa = PBXFileReference; path = UserAgentTests.h; sourceTree = "<group>"; };
+		55BCFB0A151298EF00464FE9 /* UserAgentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAgentTests.h; sourceTree = "<group>"; };
 		55BCFB0B151298EF00464FE9 /* UserAgentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserAgentTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +121,8 @@
 				55BCFAF4151298EF00464FE9 /* AppDelegate.m */,
 				55BCFAF6151298EF00464FE9 /* MainMenu.xib */,
 				55BCFAE8151298EF00464FE9 /* Supporting Files */,
+				559565DB15153C6700D78AC8 /* Header.h */,
+				559565DC15153C6800D78AC8 /* Header.m */,
 			);
 			path = UserAgent;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			files = (
 				55BCFAEE151298EF00464FE9 /* main.m in Sources */,
 				55BCFAF5151298EF00464FE9 /* AppDelegate.m in Sources */,
+				559565DD15153C6800D78AC8 /* Header.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +441,7 @@
 				55BCFB11151298EF00464FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55BCFB12151298EF00464FE9 /* Build configuration list for PBXNativeTarget "UserAgentTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +450,7 @@
 				55BCFB14151298EF00464FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
